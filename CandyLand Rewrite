@@ -1,42 +1,99 @@
+<!--
 /**
-  *Jane Colon-Bonet <jc2177@bard.edu>
-  *Feb 4 2017
-  *IDEA 135
-  *Board Game Modification
-  *I worked alone on this assignment.
-  
-# Sketch 2:  Game Modification
+ *Jane Colon-Bonet <jc2177@bard.edu>
+ *Feb 4 2017
+ *IDEA 135
+ *Game Modification
+ *I worked alone on this assignment.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Candy Land: Warring States</title>
+        <meta name="description" content="The reimagined world of Candy Land.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>Candy Land: Warring States</h1>
+        <h3><em>For 4 Players/Age 11+</em></h3>
+        
+        <p>
+            Welcome to the broken, war-torn world of <em>Candy Land: Warring States</em>. Once a sugar-soaked realm of adventure this sweet land  has fallen into an era of civil war. The various factions of Candy Land have turned on each other in a mad scramble for power. No person is safe from Princess Frostine's cold-hearted legions, the nutty warriors of Grandma Nutt, the rock-hard armies of the Lollipop Palace, and the bitter battalions of the Peppermint Forest. On top of it all, thieves from the Licorice Lagoon have set traps all around the land. With peace no longer an option the only hope is for one of the four leaders to triumph over the others, the only way to end this war is to win it.
+        </p>
+        
+        <h2>OBJECTIVE</h2>
+        <p>
+            Defeat the other players by conquering their territories to rule over all of Candy Land.
+        </p>
+        
+        <h2>CONTENTS</h2>
+        <p>
+            One game board, 4 Candy cards, 40 Color cards, and 4 Gingerbread character pieces.
+        </p>
+        
+        <h2>SET UP</h2>
+        <p>
+            <ul>
+                <li>Open the game board and place it on a flat surface, colorful side up.</li>
+                <li>Seperate the color cards (cards with squares of color on them) from the candy cards (cards with candy on them).</li>
+                <li>Shuffle the candy cards, have each player select one. The card each player recieves is their territory, they control the square on the game board with the candy symbol that matches the one on their card.</li>
+                <li>Each player selects a Gingerbread character piece and sets it on the square they control, that is where they begin.</li>
+                <li>Shuffle the deck of color cards.</li>
+            </ul>
+        </p>
+        
+        <h2>GAMEPLAY</h2>
+        <p>
+            At the beginning of each round all players draw one color card for every territory they control. The youngest player goes first and then turns pass to the left, players play all the cards they have in their hand. These cards can be played as attack cards or a defense cards. If a card is played as an attack the player moves their own character piece in the direction of their choice. If the card is played as a defense the player moves the character piece of one other player in the direction of the first player's choice. Territories are captured when a player's character piece passes over another player's territory square. If a player is in control of one territory and that territory is captured, the player is out and can no longer participate. After a card has been played it is placed in the discard pile, after all color cards have been drawn, reshuffle the discard pile and draw from that.
+        </p>
+    
+        <h2>CARDS</h2>
+        <p>
+            A card with a single color square on it allows the player to move their, or an opponent's, character piece to the first matching color square on the path in the direction of their choice.
+        </p>    
+        <p>
+            <img src= https://lh6.ggpht.com/1BE9UWWPP-5S9zxkIlwJ6LJAnSIJ5XvbBV0VgtetfFwSVd70OnnhC-3ter4jLjebaZo=h900 width=75>
+            
+        </p>
+        <p>
+            A card with two color squares on it allows the player to move their, or an opponent's, character piece to the second matching color square on the path in the direction of their choice.
+        </p>
+        <p>
+            <img src= https://lh5.ggpht.com/fn9gcaAs6HSI91wqSXVnvX5y15GgYoEki1va-pclmHpNTz33QIg7RA8cB3-nKcGI2lQ=h900 width=75>
+        </p>
+       
+        <h2>MOVEMENT</h2>
+        <p>
+            <ul>
+                <li>The character pieces can move in either direction on the path.</li>
+                <li>If a character piece lands on a licorice trap set by thieves from the licorice lagoon they lose a turn.</li>
+                <li>If two character pieces are on the same space they can remain there but the two players must play one round of rock, paper, scissors. Whoever loses misses their next turn.</li>
+                <li>If a player lands on a shortcut space (indicated with arrows) they can choose to take the shortcut or not. If they choose to take it they move to the corresponding space indicated with an arrow.</li>
+            </ul>
+        </p>
+        <h3><em>HOW TO WIN</em></h3>
+        <p>The game ends when one player has passed over and captured the territories of all other players. All other players are out and the remaining player controls all four territories.</p>
 
-**Rewrite the rules of the board game "Candy Land."**
+        <h3>AFTER THE GAME HAS BEEN WON</h3>
+        <p>The winning player should read aloud the conclusion that matches their initial terrritory (the candy card they got at the beginning of the game).</p>
 
-![Candyland Box](images/boxthumb.jpg)
+        <h3>Peppermint Forest Victory</h3>
+        <p>The guerilla warfare tactics of the Peppermint Forest proved too much for the other territories who were cut down like the delicious trees from the Peppermint homeland. From that point onward no citizen could leave their home without smelling the scent of mint drifting through the air, a smell that meant the Peppermint government was watching. Every person was made to wear the national colors of red and white stripes and were required to work assigned jobs in the vast Peppermint Forest that now covered the entire land. Any person who stepped out of line would mysteriously vanish without a trace, and other people learned quickly that asking questions could lead to the same fate. All in the land did as commanded, never daring to speak up, for everyone knew that since the victory of the Peppermint Forest it was as though the trees had eyes...</p>
+        <img src= https://metadiary.files.wordpress.com/2010/08/candy-cane-skull1.jpg width=200>
+        
+        <h3>Lollipop Palace Victory</h3>
+        <p>Organization and tactics were the key to success for the Lollipop Palace, their superior combat techniques allowed them to easily crush their opponents for the throne. Within the armies of the Lollipop Palace every troop had their place and their part to play, a part they either played perfectly or were cast out. In the new Lollipop Kingdom every person also had their part and place. A strict caste system was implemented that ensured all people stay where they belong. Those on the bottom remained on the bottom, never dirtying the tread of the upper classes' shoes. Those at the top enjoyed all of the priveledes Lollipop Kingdom had to offer, and could look down upon the numerous people who were below them and always would be...</p>
+        <img src= http://orig05.deviantart.net/f856/f/2011/158/a/8/bad_lollipop_logo_by_wyldangel-d3iaun9.png width=200>
 
-<https://idea135.github.io/game-mod/>
+        <h3>Grandma Nutt Victory</h3>
+        <p>The other territories were no match for the sheer brutal insanity of Grandma Nutt's forces. Though the exterior shell of a sweet old woman seemed sweet enough, inside there was a rotten and cruel center. Knowing no morals the Nutt armies struck down their enemies without remorse or mercy, leaving the whole of Candy Land to Grandma Nutt. She cared little for her people and derived pleasure only from watching them suffer. The kindgom descended into anarchy with Grandma sitting on a throne only to have a better view. No law and no security, everyone fought for their very survival and everything succumbed to madness...</p>
+        <img src= https://thefurrycouch.files.wordpress.com/2012/11/the_evil_peanut_by_evil_peanut.jpeg width=200>
 
-Devise new rules for a Candy Land game. You may decide to make only minor tweaks to the original Candy Land rules. You may “mashup” Candy Land with another game’s rules (e.g. poker, Monopoly). Or, you may "start fresh," treating the 
-game box contents as building blocks for an entirely new game.  Publish your modified Candy Land instructions as an HTML project on github. The rules should be easy for adults to read and understand. Your instructions page can include 
-text, graphics, and hypertext links.  Once you’ve published your HTML page, ask 2 to 4 friends or classmates to test out your game. Get them to read your rules before they play. If your friends have questions about a rule, you should amend the language of your rules to eliminate potential confusion. 
-Take note of the way your friends interact with one another while they play the game. If necessary, amend your rules to improve your game in response to the "focus group" feedback.
-
-## Rules
-
-1. You are limited to using the objects found in a Candy Land board game set (game board, cards, plastic player figurines). You may not physically alter the board or game pieces. You may *not* add additional physical elements (timers, dice, etc). 
-2. Your game should be playable (start to finish) in under 10 minutes.
-3. Give your game a new name and specify its recommended age level (e.g. 3+, 10+, 18+, 40+, 9-99, etc.)
-
-## Learning Objectives
-- Learn to clearly articulate game rules in writing 
-- Consider how rule variations impact game play
-- Use HTML to build a web page
-- Think outside of the box while remaining inside the box
-
-## Notes
-If you’re stumped about where to start, try playing "Candy Land" after changing one significant word in the the "Object" or "Gameplay” sections of the official rules. 
-Or, you can look up the rules of a card game (e.g. poker, blackjack) or another board game (e.g. Chess, Go, Monopoly) and imagine how the rules of that game might be applied to the contents of the Candy Land box. Or, just mess around: use box contents for unstructured free play.
-
-- Candy Land board and game pieces are available in the game play room (Avery 337). You may borrow  a board, but please leave at least one complete set in the game room at all times.
-
-## Additional Resources
-- [Official Candy Land Rules](http://www.hasbro.com/common/instruct/Candy_Land__(2004).pdf)
-- [Mathematical analysis of Candyland](http://datagenetics.com/blog/december12011/index.html)
-
+        <h3>Princess Frostine Victory</h3>
+        <p>Princess Frostine was able to secure victory through the absolute loyalty of her troops. Her soldiers were willing to do anything on her behalf, and this ferocious dedication gave her the strength to overpower her enemies. In the kingdom that arose from this victory Empress Frostine demanded the same obedience from her subjects. She forced her citizens to worship her like a goddess, they venerated her name and most of their belongings went to her in the form of tribute. The Empress went absolutely mad with power, believing herself a being supreme to all others, and all in the land both adored her and feared her. In the Frostine kingdom there was no choice or freedom, there was only <em>Her</em>...</p>
+        <img src= https://s-media-cache-ak0.pinimg.com/236x/ae/da/4d/aeda4db08f3c3061958fe053beb6b7c3.jpg width=200>
+    </body>
+</html>
